@@ -13,11 +13,11 @@ app.get("/about", (req, res, next) => {
   res.sendFile(__dirname + "/views/about.html");
 });
 
-app.get("/about", (req, res, next) => {
+app.get("/works", (req, res, next) => {
   res.sendFile(__dirname + "/views/works.html");
 });
 
-app.get("/about", (req, res, next) => {
+app.get("/photogallery", (req, res, next) => {
   res.sendFile(__dirname + "/views/photogallery.html");
 });
 
