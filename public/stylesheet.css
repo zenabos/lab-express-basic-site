@@ -1,3 +1,7 @@
 body {
   background-color: maroon;
 }
+
+.card {
+  width: 10vw;
+}
